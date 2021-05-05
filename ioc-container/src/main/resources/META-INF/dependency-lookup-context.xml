@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="user" class="com.hyperleon.thinking.spring.ioc.container.dependency.domain.User" primary="true">
+        <property name="name" value="leon"/>
+        <property name="age" value="24"/>
+    </bean>
+
+    <bean id="objectFactor" class="org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean">
+        <property name="targetBeanName" value="user"/>
+    </bean>
+
+    <bean id="userFactorBean" class="com.hyperleon.thinking.spring.ioc.container.dependency.lookup.UserFactorBean">
+
+    </bean>
+
+    <bean id="superUser" class="com.hyperleon.thinking.spring.ioc.container.dependency.domain.SuperUser" parent="user">
+        <property name="phone" value="123"/>
+    </bean>
+
+</beans>
