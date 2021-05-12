@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 
-    <artifactId>ioc-container</artifactId>
+    <artifactId>spring-bean</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -20,9 +20,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
+            <groupId>${groupId}</groupId>
+            <artifactId>ioc-container</artifactId>
+            <version>${revision}</version>
         </dependency>
     </dependencies>
-
 </project>
