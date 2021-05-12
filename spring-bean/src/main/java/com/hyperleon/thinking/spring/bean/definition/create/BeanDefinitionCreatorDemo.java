@@ -1,4 +1,4 @@
-package com.hyperleon.thinking.spring.bean.definition;
+package com.hyperleon.thinking.spring.bean.definition.create;
 
 import com.hyperleon.thinking.spring.ioc.container.dependency.domain.User;
 import org.springframework.beans.MutablePropertyValues;

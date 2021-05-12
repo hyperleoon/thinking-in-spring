@@ -1,4 +1,4 @@
-package com.hyperleon.thinking.spring.bean.definition;
+package com.hyperleon.thinking.spring.bean.definition.create;
 
 import org.springframework.beans.factory.support.BeanNameGenerator;
 import org.springframework.beans.factory.support.DefaultBeanNameGenerator;
