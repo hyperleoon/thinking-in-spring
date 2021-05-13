@@ -6,8 +6,6 @@
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
 
-    <import resource="classpath:META-INF/dependency-lookup-context.xml"/>
-
     <bean id="user-by-static-method" class="com.hyperleon.thinking.spring.ioc.container.dependency.domain.User"
           factory-method="createUser"></bean>
 
