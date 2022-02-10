@@ -1,5 +1,7 @@
 package com.hyperleon.thinking.spring.java.beans;
 
+import com.hyperleon.thinking.spring.java.beans.beans.Person;
+
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
 import java.beans.Introspector;

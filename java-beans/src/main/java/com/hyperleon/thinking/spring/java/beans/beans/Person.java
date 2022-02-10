@@ -1,4 +1,4 @@
-package com.hyperleon.thinking.spring.java.beans;
+package com.hyperleon.thinking.spring.java.beans.beans;
 
 /**
  * @author leon
