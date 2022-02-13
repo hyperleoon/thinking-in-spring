@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
 
     <bean id="userFactorServiceLoader" class="org.springframework.beans.factory.serviceloader.ServiceListFactoryBean">
-        <property name="serviceType" value="com.hyperleon.thinking.spring.bean.definition.instantiate.UserFactory"/>
+        <property name="serviceType" value="com.hyperleon.thinking.spring.bean.definition.instantiate.bean.UserFactory"/>
     </bean>
 
 </beans>

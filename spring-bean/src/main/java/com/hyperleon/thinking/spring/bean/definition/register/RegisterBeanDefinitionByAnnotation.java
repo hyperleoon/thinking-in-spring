@@ -1,6 +1,7 @@
 package com.hyperleon.thinking.spring.bean.definition.register;
 
 import com.hyperleon.thinking.spring.ioc.container.dependency.domain.User;
+import org.springframework.beans.factory.serviceloader.ServiceListFactoryBean;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;

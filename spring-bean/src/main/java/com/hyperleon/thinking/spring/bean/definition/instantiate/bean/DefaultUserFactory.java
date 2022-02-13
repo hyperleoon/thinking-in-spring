@@ -1,4 +1,4 @@
-package com.hyperleon.thinking.spring.bean.definition.instantiate;
+package com.hyperleon.thinking.spring.bean.definition.instantiate.bean;
 
 /**
  * @author leon

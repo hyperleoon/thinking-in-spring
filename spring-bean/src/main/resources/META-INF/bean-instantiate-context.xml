@@ -12,9 +12,9 @@
     <bean id="user-by-factor" class="com.hyperleon.thinking.spring.ioc.container.dependency.domain.User"
           factory-bean="userFactory" factory-method="createUser"></bean>
 
-    <bean id="user-by-factory-bean" class="com.hyperleon.thinking.spring.bean.definition.instantiate.UserFactoryBean"></bean>
+    <bean id="user-by-factory-bean" class="com.hyperleon.thinking.spring.bean.definition.instantiate.bean.UserFactoryBean"></bean>
 
-    <bean id="userFactory" class="com.hyperleon.thinking.spring.bean.definition.instantiate.DefaultUserFactory">
+    <bean id="userFactory" class="com.hyperleon.thinking.spring.bean.definition.instantiate.bean.DefaultUserFactory">
     </bean>
 
 </beans>

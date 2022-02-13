@@ -3,8 +3,6 @@ package com.hyperleon.thinking.spring.bean.definition.instantiate;
 import com.hyperleon.thinking.spring.ioc.container.dependency.domain.User;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import javax.jws.soap.SOAPBinding;
-
 /**
  * @author leon
  * @date 2021-05-13 23:44
