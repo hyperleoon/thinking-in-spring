@@ -1,5 +1,6 @@
-package com.hyperleon.thinking.spring.configuration.metadata;
+package com.hyperleon.thinking.spring.configuration.metadata.ext;
 
+import com.hyperleon.thinking.spring.configuration.metadata.User;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 

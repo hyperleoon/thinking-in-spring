@@ -1,4 +1,4 @@
-package com.hyperleon.thinking.spring.configuration.metadata;
+package com.hyperleon.thinking.spring.configuration.metadata.ext;
 
 import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 
