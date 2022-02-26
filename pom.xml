@@ -13,6 +13,8 @@
         <module>java-beans</module>
         <module>ioc-container</module>
         <module>spring-bean</module>
+        <module>dependency-injection</module>
+        <module>configuration-metadata</module>
     </modules>
 
     <properties>
