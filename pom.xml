@@ -16,6 +16,7 @@
         <module>dependency-injection</module>
         <module>configuration-metadata</module>
         <module>spring-resource</module>
+        <module>spring-validation</module>
     </modules>
 
     <properties>
