@@ -17,6 +17,7 @@
         <module>configuration-metadata</module>
         <module>spring-resource</module>
         <module>spring-validation</module>
+        <module>data-binding</module>
     </modules>
 
     <properties>
