@@ -18,6 +18,7 @@
         <module>spring-resource</module>
         <module>spring-validation</module>
         <module>data-binding</module>
+        <module>spring-conversion</module>
     </modules>
 
     <properties>

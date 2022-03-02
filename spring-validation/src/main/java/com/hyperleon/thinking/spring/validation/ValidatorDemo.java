@@ -13,6 +13,7 @@ import java.util.Locale;
 import static com.hyperleon.thinking.spring.validation.ErrorMessageDemo.createMessageSource;
 
 /**
+ * https://mp.weixin.qq.com/s/sML7CcvJx71Z3rwM3QYR-g
  * @author leon
  * @date 2022-02-28 23:00
  **/
